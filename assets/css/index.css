@@ -6,6 +6,10 @@
     --swhite: #f9fafc;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     margin: 0;
@@ -38,16 +42,10 @@ header {
 }
 
 .box_logo {
-    width: 40px;
-    height: 40px;
-    background-color: var(--purple);
-    border-radius: 40px 25px 40px 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    color: var(--white);
+    font-size: 25px;
     font-weight: 700;
+    font-family: 'Carter One', cursive;
+    color: var(--purple);
 }
 
 .text_nav {
@@ -349,14 +347,14 @@ header {
     margin-left: 5px;
 }
 
-footer{
+footer {
     width: 100%;
     height: 70px;
     background-color: var(--purple);
-    
+    margin-top: 0;
 }
 
-.box_footer{
+.box_footer {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -370,18 +368,14 @@ footer{
     display: flex;
     align-items: center;
 }
-.box_logo_fo{
-    width: 40px;
-    height: 40px;
-    background-color: var(--white);
-    border-radius: 40px 25px 40px 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    color: var(--purple);
+
+.box_logo_fo {
+    font-size: 25px;
     font-weight: 700;
+    font-family: 'Carter One', cursive;
+    color: var(--white);
 }
+
 .box_fo_copy {
     flex: 1;
     /* background-color: green; */
@@ -390,11 +384,13 @@ footer{
     align-items: center;
     justify-content: center;
 }
-.t_box_fo_copy{
+
+.t_box_fo_copy {
     margin: 0;
     color: var(--white);
     font-size: 14px;
 }
+
 .box_fo_sosmed {
     flex: 1;
     /* background-color: blue; */
@@ -404,12 +400,13 @@ footer{
     align-items: center;
 }
 
-.box_fo_sosmed2{
-    /* background-color: red; */
-}
-
-.icon_box_fo_sosmed{
+.icon_box_fo_sosmed {
     float: right;
-    height: 18px;
+    font-size: 20px;
     margin-left: 15px;
+    color: var(--white);
+}
+.wave_footer{
+    margin-bottom: -8px;
+    position: relative;
 }
