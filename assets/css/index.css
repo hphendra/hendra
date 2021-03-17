@@ -46,6 +46,7 @@ header {
     font-weight: 700;
     font-family: 'Carter One', cursive;
     color: var(--purple);
+    text-decoration: none;
 }
 
 .text_nav {
@@ -374,6 +375,7 @@ footer {
     font-weight: 700;
     font-family: 'Carter One', cursive;
     color: var(--white);
+    text-decoration: none;
 }
 
 .box_fo_copy {
@@ -405,6 +407,7 @@ footer {
     font-size: 20px;
     margin-left: 15px;
     color: var(--white);
+    text-decoration: none;
 }
 .wave_footer{
     margin-bottom: -8px;
