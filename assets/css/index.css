@@ -362,7 +362,6 @@ footer {
 
 .box_fo_logo {
     flex: 1;
-    /* background-color: red; */
     height: 70px;
     display: flex;
     align-items: center;
@@ -378,7 +377,6 @@ footer {
 
 .box_fo_copy {
     flex: 1;
-    /* background-color: green; */
     height: 70px;
     display: flex;
     align-items: center;
@@ -393,7 +391,6 @@ footer {
 
 .box_fo_sosmed {
     flex: 1;
-    /* background-color: blue; */
     height: 70px;
     display: flex;
     justify-content: flex-end;
@@ -411,6 +408,9 @@ footer {
 .wave_footer {
     margin-bottom: -8px;
     position: relative;
+}
+.hsbfc{
+    display: none;
 }
 
 /* RESPONSIVE */
@@ -466,7 +466,7 @@ footer {
         justify-content: center;
     }
     .box_text_am {
-        margin: 0px 0px 0px 20px;
+        margin: 0px;
         text-align: center;
         /* background-color: red; */
     }
@@ -483,6 +483,7 @@ footer {
         text-align: center;
         /* margin: auto; */
         margin-top: 15px;
+        /* background-color: red; */
     }
     .j_skills {
         font-size: 20px;
@@ -527,10 +528,78 @@ footer {
     .link_ip {
         display: none;
     }
-    .a_ip{
+    .a_ip {
         font-size: 14px;
     }
-    .icon_tsp{
+    .icon_tsp {
         height: 20px;
+    }
+    footer {
+        height: auto;
+        /* background-color: red; */
+    }
+    .box_footer {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        padding: 25px 0px 30px 0px;
+    }
+    .box_fo_logo {
+        justify-content: center;
+        height: auto;
+    }
+    .box_fo_copy {
+        justify-content: center;
+        height: auto;
+        margin-top: 25px;
+    }
+    .box_fo_sosmed {
+        justify-content: center;
+        height: auto;
+        margin-top: 20px;
+    }
+    .hsbfc{
+        display: block;
+        text-align: center;
+    }
+    .hsbfc1{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .box_nav {
+        display: none;
+    }
+    .j_skills {
+        font-size: 18px;
+        text-align: center;
+    }
+    .box_skills {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .t_skills {
+        font-size: 14px;
+    }
+    .box_isi_project {
+        padding: 15px;
+    }
+    .t_ip {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .box_tsp {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin-top: 8px;
+    }
+    .a_ip {
+        font-size: 13px;
+        color: var(--purple);
+    }
+    .icon_tsp {
+        margin: 15px 5px 0px 0px;
     }
 }
