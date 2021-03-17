@@ -409,10 +409,12 @@ footer {
     margin-bottom: -8px;
     position: relative;
 }
-.hsbfc{
+
+.hsbfc {
     display: none;
 }
-.link_bip{
+
+.link_bip {
     text-decoration: none;
 }
 
@@ -561,17 +563,17 @@ footer {
         height: auto;
         margin-top: 20px;
     }
-    .hsbfc{
+    .hsbfc {
         display: block;
         text-align: center;
     }
-    .hsbfc1{
+    .hsbfc1 {
         display: none;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .box_header{
+    .box_header {
         justify-content: center;
     }
     .box_nav {
@@ -594,6 +596,9 @@ footer {
     .t_ip {
         font-size: 14px;
         margin-bottom: 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .box_tsp {
         flex-direction: column;
